@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-black px-8 font-bold text-white text-2xl py-4">MyTicTacToe.com</div>
+    <div class="flex my-10 mx-60">
+        
+        <div class="flex flex-col ">
+            <div class="flex h-36">
+                <div class="box border-l-white border-t-white"></div>
+                <div class="box border-t-white"></div>
+                <div class="box border-r-white  border-t-white"></div>
+            </div>
+            <div class="flex h-36">
+                <div class="box border-l-white"></div>
+                <div class="box"></div>
+                <div class="box border-r-white"></div>
+            </div>
+            <div class="flex h-36">
+                <div class="box border-l-white border-b-white"></div>
+                <div class="box border-b-white"></div>
+                <div class="box border-r-white border-b-white"></div>
+            </div>
+        </div>
+        <div class="mx-40 my-40">
+            <div class="text-5xl font-bold my-4">Welcome to MyTicTacToe</div>
+            <div class="flex">
+                <div id="current" class = "text-2xl">Turn for X</div>
+                <button id="btn" class="px-2 bg-red-200 rounded-md mx-4">Reset</button>
+                <div></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

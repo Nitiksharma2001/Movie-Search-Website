@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.box{
+    @apply border-4 border-black text-9xl w-28 pl-4 hover:bg-purple-200 hover:cursor-pointer;
+}
+@tailwind utilities;
